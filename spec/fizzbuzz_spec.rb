@@ -28,4 +28,8 @@ describe 'fizzbuzz' do
   it 'returns "fizzbuzz" when passed 30' do
     expect(fizzbuzz(30)).to eq 'fizzbuzz'
   end
+
+  it 'returns number when given a float' do
+    expect(fizzbuzz(7.5)).to eq 7.5
+  end
 end
